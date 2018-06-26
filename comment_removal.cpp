@@ -53,7 +53,7 @@ int main(){
 				else if(prev=='/' && c=='*'){
 					prev = c;
 					pen_up2 = 1;
-					
+
 					continue;
 				}
 				else{
@@ -65,7 +65,7 @@ int main(){
 		}
 	}
 	else{
-		cout << "Error opening the specified file" << endl; 
+		cout << "Error opening the specified file" << endl;
 	}
 	temp.close();
 
